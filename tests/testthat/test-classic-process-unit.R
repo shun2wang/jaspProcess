@@ -1,5 +1,7 @@
 # Unit tests for Classic Process analysis
 
+set.seed(123)
+
 # Helper functions --------------------------------------------------------
 
 create_graph_from_edgeList <- function(edgeList) {

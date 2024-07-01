@@ -1,5 +1,7 @@
 # Verification tests against established results for classic process analysis
 
+set.seed(123)
+
 test_that("Test that single moderation effect matches validated results", {
 
   options <- getOptionsClassical()

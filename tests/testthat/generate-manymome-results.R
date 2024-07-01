@@ -7,6 +7,8 @@
 
 ### Exammple Global Warming data set
 
+set.seed(123)
+
 # Read data set from Hayes (2022)
 df <- read.csv(testthat::test_path("global_warming.csv"))
 

@@ -1,5 +1,6 @@
 ### Helper functions for test generation
 
+set.seed(123)
 
 # Hayes models (classical) ------------------------------------------------
 

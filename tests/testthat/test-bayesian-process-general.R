@@ -1,4 +1,5 @@
 
+set.seed(123)
 test_that("Missing values work without independent covariances", {
   options <- getOptionsBayesian()
   options$covariates <- list("contGamma", "debMiss1", "debMiss30", "debMiss80")
