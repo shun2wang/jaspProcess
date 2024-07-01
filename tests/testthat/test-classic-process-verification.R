@@ -1,6 +1,6 @@
 # Verification tests against established results for classic process analysis
 
-set.seed(123)
+set.seed(12)
 
 test_that("Test that single moderation effect matches validated results", {
 
